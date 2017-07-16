@@ -14,6 +14,7 @@ import AlbumList from './src/components/AlbumList';
 // };
 
 const App = () => (
+  //<View style={{ flex: 1 }}> didn't need this one also can scroll correctly
   <View>
     <Header headerText={'Albums'}/>
     <AlbumList></AlbumList>
